@@ -98,6 +98,7 @@ def extract():
                 out.append(qown['link'])
                 out.append(questions['items'][i]['is_answered'])
                 out.append(questions['items'][i]['view_count'])
+                out.append(questions['items'][i]['answer_count'])
                 out.append(questions['items'][i]['score'])
                 out.append(questions['items'][i]['last_activity_date'])
                 out.append(questions['items'][i]['creation_date'])
